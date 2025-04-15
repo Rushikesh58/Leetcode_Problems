@@ -1,5 +1,6 @@
 class Solution(object):
     def decrypt(self, code, k):
+        "https://leetcode.com/problems/defuse-the-bomb/"
         n = len(code)
         res = [0] * n 
         l = 0 
