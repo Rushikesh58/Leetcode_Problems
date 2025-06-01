@@ -1,5 +1,6 @@
+from typing import *
 class Solution():
-    def dailytemp(self,lil):
+    def dailytemp(self,lil: List[int]):
         stack = []
         res = [0] * len(lil)
 
