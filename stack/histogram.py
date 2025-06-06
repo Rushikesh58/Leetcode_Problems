@@ -20,5 +20,5 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
-    hist  = [7,1,7,2,2,4]
+    hist  = [2,1,5,6,2,3]
     print(sol.largestRectangleArea(hist))
